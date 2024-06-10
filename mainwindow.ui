@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>804</width>
-    <height>593</height>
+    <width>800</width>
+    <height>640</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>400</width>
-    <height>300</height>
+    <width>800</width>
+    <height>640</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -35,1299 +35,1762 @@
    <property name="contextMenuPolicy">
     <enum>Qt::NoContextMenu</enum>
    </property>
-   <widget class="QTabWidget" name="tabWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>780</width>
-      <height>541</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>100</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="StronaUzytkownika">
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <attribute name="title">
-      <string>Uzytkownik</string>
-     </attribute>
-     <widget class="QGroupBox" name="Panel">
-      <property name="geometry">
-       <rect>
-        <x>550</x>
-        <y>0</y>
-        <width>201</width>
-        <height>410</height>
-       </rect>
-      </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
       <property name="minimumSize">
        <size>
-        <width>200</width>
-        <height>200</height>
+        <width>780</width>
+        <height>580</height>
        </size>
       </property>
-      <property name="layoutDirection">
-       <enum>Qt::RightToLeft</enum>
+      <property name="sizeIncrement">
+       <size>
+        <width>100</width>
+        <height>100</height>
+       </size>
       </property>
-      <property name="title">
-       <string/>
+      <property name="baseSize">
+       <size>
+        <width>780</width>
+        <height>620</height>
+       </size>
       </property>
-      <widget class="QLabel" name="label">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>40</y>
-         <width>71</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Do zapłaty: </string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="geometry">
-        <rect>
-         <x>110</x>
-         <y>120</y>
-         <width>81</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Płać</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>120</y>
-         <width>81</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Anuluj</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_45">
-       <property name="geometry">
-        <rect>
-         <x>110</x>
-         <y>50</y>
-         <width>49</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>0.00</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_3">
-       <property name="enabled">
-        <bool>true</bool>
-       </property>
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>200</y>
-         <width>85</width>
-         <height>28</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QWidget" name="gridLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>511</width>
-        <height>481</height>
-       </rect>
+      <property name="currentIndex">
+       <number>1</number>
       </property>
-      <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0" rowminimumheight="0,0,0,0,0,0">
-       <property name="sizeConstraint">
-        <enum>QLayout::SetMinimumSize</enum>
-       </property>
-       <property name="leftMargin">
-        <number>5</number>
-       </property>
-       <property name="topMargin">
-        <number>5</number>
-       </property>
-       <property name="rightMargin">
-        <number>5</number>
-       </property>
-       <property name="bottomMargin">
-        <number>5</number>
-       </property>
-       <item row="2" column="1">
-        <widget class="QWidget" name="Produkt_5" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_5">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_19">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_16">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_5">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QWidget" name="Produkt11" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_11">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_20">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_23">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_11">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QWidget" name="Produkt_3" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_3">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_6">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_14">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_3">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <widget class="QWidget" name="Produkt_15" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_15">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_24">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_25">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_15">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="QWidget" name="Produkt8" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_8">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_9">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_18">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_9">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QWidget" name="Produkt13" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_13">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_25">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_27">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_13">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QWidget" name="Produkt_7" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_7">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_8">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_8">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_7">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QWidget" name="Produkt10" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_10">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_22">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_24">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QWidget" name="Produkt9" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_9">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_10">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_19">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_20">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="QWidget" name="Produkt14" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_14">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_23">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_26">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_14">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QWidget" name="Produkt_4" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_4">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_17">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_15">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_4">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QWidget" name="Produkt_2" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_2">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_5">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_13">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_2">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QWidget" name="Produkt_6" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_6">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_18">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_17">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_6">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QWidget" name="Produkt_1" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_1">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_4">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_12">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_1">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-       <item row="4" column="2">
-        <widget class="QWidget" name="Produkt12" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>100</width>
-           <height>35</height>
-          </size>
-         </property>
-         <widget class="QLabel" name="Nazwa_12">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Produkt_1</string>
-          </property>
-         </widget>
-         <widget class="QSpinBox" name="ilosc_21">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>0</y>
-            <width>42</width>
-            <height>25</height>
-           </rect>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_22">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>30</y>
-            <width>41</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Cena: </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="Cena_12">
-          <property name="geometry">
-           <rect>
-            <x>70</x>
-            <y>30</y>
-            <width>49</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>0.00</string>
-          </property>
-         </widget>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="StronaKonserwatora">
-     <attribute name="title">
-      <string>Konserwator</string>
-     </attribute>
-     <widget class="QWidget" name="gridLayoutWidget_2">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>40</y>
-        <width>181</width>
-        <height>241</height>
-       </rect>
+      <property name="usesScrollButtons">
+       <bool>false</bool>
       </property>
-      <layout class="QGridLayout" name="gridLayout_2">
-       <item row="0" column="0">
-        <widget class="QFrame" name="frame_2">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <widget class="QGroupBox" name="KProdukt_2">
-          <property name="geometry">
-           <rect>
-            <x>0</x>
-            <y>10</y>
-            <width>179</width>
-            <height>151</height>
-           </rect>
+      <widget class="QWidget" name="StronaUzytkownika">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <attribute name="title">
+        <string>Uzytkownik</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMinimumSize</enum>
           </property>
-          <property name="maximumSize">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item row="0" column="1">
+           <widget class="QWidget" name="Produkt_1" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_18">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_1">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_1"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_1">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_1">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QWidget" name="Produkt_9" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_26">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_9">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_9"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_13">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_9">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QWidget" name="Produkt_10" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_27">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_10">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_10"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_14">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_10">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QWidget" name="Produkt_5" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_22">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_5">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_5"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_5">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_5">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QWidget" name="Produkt_8" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_25">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_8">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_8"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_8">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_8">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QWidget" name="Produkt_11" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_31">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_11">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_11"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_15">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_11">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QWidget" name="Produkt_2" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_19">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_2">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_2"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_2">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_2">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QWidget" name="Produkt_7" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_24">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_7">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_7"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_7">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_7">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QWidget" name="Produkt_4" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_21">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_4">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_4"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_4">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_4">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QWidget" name="Produkt_6" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_23">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_6">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_6"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_6">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_6">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QWidget" name="Produkt_3" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_20">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_3">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_3"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_3">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_3">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QWidget" name="Produkt_12" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_32">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_12">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_12"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_16">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_12">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QWidget" name="Produkt_13" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_28">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_13">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_13"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_17">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_13">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QWidget" name="Produkt_14" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_29">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_14">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_14"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_18">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_14">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QWidget" name="Produkt_15" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_30">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_15">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_15"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_19">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_15">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QWidget" name="Produkt_16" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>35</height>
+             </size>
+            </property>
+            <layout class="QFormLayout" name="formLayout_33">
+             <item row="0" column="0">
+              <widget class="QLabel" name="Nazwa_16">
+               <property name="text">
+                <string>Produkt_1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="ilosc_16"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="l_20">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLabel" name="Cena_16">
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="Panel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
            <size>
-            <width>179</width>
-            <height>239</height>
+            <width>200</width>
+            <height>200</height>
            </size>
           </property>
-          <widget class="QSpinBox" name="ilosc_2">
-           <property name="geometry">
-            <rect>
-             <x>120</x>
-             <y>60</y>
-             <width>42</width>
-             <height>25</height>
-            </rect>
+          <property name="layoutDirection">
+           <enum>Qt::RightToLeft</enum>
+          </property>
+          <property name="title">
+           <string>Płatność</string>
+          </property>
+          <layout class="QFormLayout" name="formLayout_34">
+           <property name="rowWrapPolicy">
+            <enum>QFormLayout::WrapLongRows</enum>
            </property>
-          </widget>
-          <widget class="QLabel" name="label_21">
-           <property name="geometry">
-            <rect>
-             <x>10</x>
-             <y>110</y>
-             <width>41</width>
-             <height>16</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string>Cena: </string>
-           </property>
-          </widget>
-          <widget class="QTextEdit" name="textEdit">
-           <property name="geometry">
-            <rect>
-             <x>10</x>
-             <y>50</y>
-             <width>91</width>
-             <height>31</height>
-            </rect>
-           </property>
-           <property name="html">
-            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-hr { height: 1px; border-width: 0; }
-li.unchecked::marker { content: &quot;\2610&quot;; }
-li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;Produkt_1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-           </property>
-          </widget>
-          <widget class="QPlainTextEdit" name="plainTextEdit">
-           <property name="geometry">
-            <rect>
-             <x>70</x>
-             <y>100</y>
-             <width>104</width>
-             <height>31</height>
-            </rect>
-           </property>
-          </widget>
+           <item row="0" column="0">
+            <widget class="QLabel" name="dozaplaty">
+             <property name="text">
+              <string>0.00</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="anuluj">
+             <property name="text">
+              <string>Anuluj</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Do zapłaty: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="plac">
+             <property name="text">
+              <string>Płać</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QGroupBox" name="Panel_2">
-      <property name="geometry">
-       <rect>
-        <x>550</x>
-        <y>0</y>
-        <width>211</width>
-        <height>501</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>GroupBox</string>
-      </property>
-      <widget class="QLabel" name="label_2">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>30</y>
-         <width>121</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Monety w automacie</string>
-       </property>
-      </widget>
-      <widget class="QToolButton" name="OK">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>430</y>
-         <width>111</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>OK</string>
-       </property>
-      </widget>
-      <widget class="QWidget" name="formLayoutWidget">
-       <property name="geometry">
-        <rect>
-         <x>9</x>
-         <y>82</y>
-         <width>191</width>
-         <height>319</height>
-        </rect>
-       </property>
-       <layout class="QFormLayout" name="formLayout">
-        <property name="leftMargin">
-         <number>10</number>
-        </property>
-        <property name="topMargin">
-         <number>5</number>
-        </property>
-        <property name="rightMargin">
-         <number>10</number>
-        </property>
-        <property name="bottomMargin">
-         <number>5</number>
-        </property>
-        <item row="0" column="1">
-         <widget class="QSpinBox" name="spinBox"/>
-        </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;	0.01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_4">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QSpinBox" name="spinBox_2"/>
-        </item>
-        <item row="2" column="1">
-         <widget class="QSpinBox" name="spinBox_3"/>
-        </item>
-        <item row="3" column="1">
-         <widget class="QSpinBox" name="spinBox_4"/>
-        </item>
-        <item row="4" column="1">
-         <widget class="QSpinBox" name="spinBox_5"/>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_5">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.05&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="label_6">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.10&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="label_7">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.20&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="0">
-         <widget class="QLabel" name="label_8">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.50&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QSpinBox" name="spinBox_6"/>
-        </item>
-        <item row="6" column="0">
-         <widget class="QLabel" name="label_9">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="0">
-         <widget class="QLabel" name="label_10">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="8" column="0">
-         <widget class="QLabel" name="label_11">
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;5.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="1">
-         <widget class="QSpinBox" name="spinBox_7"/>
-        </item>
-        <item row="7" column="1">
-         <widget class="QSpinBox" name="spinBox_8"/>
-        </item>
-        <item row="8" column="1">
-         <widget class="QSpinBox" name="spinBox_9"/>
         </item>
        </layout>
       </widget>
-      <zorder>label_2</zorder>
-      <zorder>formLayoutWidget</zorder>
-      <zorder>OK</zorder>
+      <widget class="QWidget" name="StronaKonserwatora">
+       <attribute name="title">
+        <string>Konserwator</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="3" column="0">
+           <widget class="QGroupBox" name="KProdukt_13">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 13</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_14">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_48">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_13"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_49">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_13"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_47">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_13"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QGroupBox" name="KProdukt_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 7</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_8">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_17">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_7"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_27">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_7"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_37">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_7"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QGroupBox" name="KProdukt_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 3</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_4">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_13">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_3"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_23">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_3"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_33">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_3"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QGroupBox" name="KProdukt_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 4</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_5">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_14">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_4"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_24">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_4"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_34">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_4"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QGroupBox" name="KProdukt_14">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 14</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_15">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_51">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_14"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_52">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_14"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_50">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_14"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QGroupBox" name="KProdukt_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 6</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_7">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_16">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_6"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_26">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_6"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_36">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_6"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QGroupBox" name="KProdukt_11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 11</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_12">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_42">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_11"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_43">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_11"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_41">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_11"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QGroupBox" name="KProdukt_12">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 12</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_13">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_45">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_12"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_46">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_12"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_44">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_12"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QGroupBox" name="KProdukt_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 1</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_2">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_11">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_1"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_21">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_1"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_31">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_1"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QGroupBox" name="KProdukt_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 2</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_3">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_12">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_2"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_22">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_2"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_32">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_2"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QGroupBox" name="KProdukt_15">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 15</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_16">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_54">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_15"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_55">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_15"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_53">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_15"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QGroupBox" name="KProdukt_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 9</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_10">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_19">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_9"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_29">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_9"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_39">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_9"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QGroupBox" name="KProdukt_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 5</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_6">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_15">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_5"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_25">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_5"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_35">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_5"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QGroupBox" name="KProdukt_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 8</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_9">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_18">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_8"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_28">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_8"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_38">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_8"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QGroupBox" name="KProdukt_16">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 16</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_17">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_57">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_16"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_58">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_16"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_56">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_16"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QGroupBox" name="KProdukt_10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Produkt 10</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_11">
+             <item row="0" column="0">
+              <widget class="QLabel" name="klabel_20">
+               <property name="text">
+                <string>Nazwa:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPlainTextEdit" name="knazwa_10"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="klabel_30">
+               <property name="text">
+                <string>Ilosc:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="kilosc_10"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="klabel_40">
+               <property name="text">
+                <string>Cena: </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="kcena_10"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="Panel_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>400</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Monety w automacie</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QFormLayout" name="formLayout">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <property name="topMargin">
+              <number>5</number>
+             </property>
+             <property name="rightMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>5</number>
+             </property>
+             <item row="0" column="1">
+              <widget class="QSpinBox" name="gr_1"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;	0.01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.02&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="gr_2"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QSpinBox" name="gr_5"/>
+             </item>
+             <item row="3" column="1">
+              <widget class="QSpinBox" name="gr_10"/>
+             </item>
+             <item row="4" column="1">
+              <widget class="QSpinBox" name="gr_20"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.05&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.10&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.20&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0.50&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QSpinBox" name="gr_50"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_11">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;5.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QSpinBox" name="zl_1"/>
+             </item>
+             <item row="7" column="1">
+              <widget class="QSpinBox" name="zl_2"/>
+             </item>
+             <item row="8" column="1">
+              <widget class="QSpinBox" name="zl_5"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="OK">
+             <property name="text">
+              <string>OK</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
      </widget>
-    </widget>
-   </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="enabled">
@@ -1337,8 +1800,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>804</width>
-     <height>25</height>
+     <width>800</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
