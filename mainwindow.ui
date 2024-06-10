@@ -88,7 +88,7 @@
        <enum>Qt::RightToLeft</enum>
       </property>
       <property name="title">
-       <string>GroupBox</string>
+       <string/>
       </property>
       <widget class="QLabel" name="label">
        <property name="geometry">
@@ -142,6 +142,22 @@
         <string>0.00</string>
        </property>
       </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>200</y>
+         <width>85</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QWidget" name="gridLayoutWidget">
       <property name="geometry">
@@ -152,7 +168,7 @@
         <height>481</height>
        </rect>
       </property>
-      <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0,0,0" rowminimumheight="0,0,0,0,0,0,0,0">
+      <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0" rowminimumheight="0,0,0,0,0,0">
        <property name="sizeConstraint">
         <enum>QLayout::SetMinimumSize</enum>
        </property>
@@ -176,7 +192,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_18">
+         <widget class="QLabel" name="Nazwa_5">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -199,7 +215,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_19">
+         <widget class="QLabel" name="label_16">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -212,7 +228,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_38">
+         <widget class="QLabel" name="Cena_5">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -235,7 +251,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_19">
+         <widget class="QLabel" name="Nazwa_11">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -258,7 +274,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_20">
+         <widget class="QLabel" name="label_23">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -271,7 +287,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_39">
+         <widget class="QLabel" name="Cena_11">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -294,7 +310,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_5">
+         <widget class="QLabel" name="Nazwa_3">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -317,7 +333,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_6">
+         <widget class="QLabel" name="label_14">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -330,7 +346,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_16">
+         <widget class="QLabel" name="Cena_3">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -353,7 +369,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_23">
+         <widget class="QLabel" name="Nazwa_15">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -376,7 +392,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_24">
+         <widget class="QLabel" name="label_25">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -389,7 +405,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_43">
+         <widget class="QLabel" name="Cena_15">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -435,7 +451,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_9">
+         <widget class="QLabel" name="label_18">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -448,7 +464,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_19">
+         <widget class="QLabel" name="Cena_9">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -471,7 +487,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_24">
+         <widget class="QLabel" name="Nazwa_13">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -494,7 +510,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_25">
+         <widget class="QLabel" name="label_27">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -507,7 +523,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_44">
+         <widget class="QLabel" name="Cena_13">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -566,7 +582,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_18">
+         <widget class="QLabel" name="Cena_7">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -589,7 +605,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_21">
+         <widget class="QLabel" name="Nazwa_10">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -612,7 +628,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_22">
+         <widget class="QLabel" name="label_24">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -625,7 +641,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_41">
+         <widget class="QLabel" name="Cena_">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -671,7 +687,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_10">
+         <widget class="QLabel" name="label_19">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -707,7 +723,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_22">
+         <widget class="QLabel" name="Nazwa_14">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -730,7 +746,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_23">
+         <widget class="QLabel" name="label_26">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -743,7 +759,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_42">
+         <widget class="QLabel" name="Cena_14">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -766,7 +782,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_16">
+         <widget class="QLabel" name="Nazwa_4">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -789,7 +805,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_17">
+         <widget class="QLabel" name="label_15">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -802,7 +818,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_36">
+         <widget class="QLabel" name="Cena_4">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -825,7 +841,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_4">
+         <widget class="QLabel" name="Nazwa_2">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -848,7 +864,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_5">
+         <widget class="QLabel" name="label_13">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -861,7 +877,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_15">
+         <widget class="QLabel" name="Cena_2">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -884,7 +900,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_17">
+         <widget class="QLabel" name="Nazwa_6">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -907,7 +923,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_18">
+         <widget class="QLabel" name="label_17">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -920,7 +936,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_37">
+         <widget class="QLabel" name="Cena_6">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -943,7 +959,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_3">
+         <widget class="QLabel" name="Nazwa_1">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -966,7 +982,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_4">
+         <widget class="QLabel" name="label_12">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -979,7 +995,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_14">
+         <widget class="QLabel" name="Cena_1">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -1002,7 +1018,7 @@
            <height>35</height>
           </size>
          </property>
-         <widget class="QLabel" name="Nazwa_20">
+         <widget class="QLabel" name="Nazwa_12">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -1025,7 +1041,7 @@
            </rect>
           </property>
          </widget>
-         <widget class="QLabel" name="Cena_21">
+         <widget class="QLabel" name="label_22">
           <property name="geometry">
            <rect>
             <x>0</x>
@@ -1038,7 +1054,7 @@
            <string>Cena: </string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_40">
+         <widget class="QLabel" name="Cena_12">
           <property name="geometry">
            <rect>
             <x>70</x>
@@ -1106,7 +1122,7 @@
             </rect>
            </property>
           </widget>
-          <widget class="QLabel" name="Cena_2">
+          <widget class="QLabel" name="label_21">
            <property name="geometry">
             <rect>
              <x>10</x>
@@ -1135,8 +1151,8 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Produkt_1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;Produkt_1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QPlainTextEdit" name="plainTextEdit">
@@ -1182,8 +1198,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <widget class="QToolButton" name="OK">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>370</y>
+         <x>60</x>
+         <y>430</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -1198,7 +1214,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
          <x>9</x>
          <y>82</y>
          <width>191</width>
-         <height>283</height>
+         <height>319</height>
         </rect>
        </property>
        <layout class="QFormLayout" name="formLayout">
@@ -1322,7 +1338,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <x>0</x>
      <y>0</y>
      <width>804</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
