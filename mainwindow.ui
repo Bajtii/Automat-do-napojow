@@ -16,9 +16,6 @@
     <height>640</height>
    </size>
   </property>
-  <property name="windowTitle">
-   <string>MainWindow</string>
-  </property>
   <property name="dockOptions">
    <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
   </property>
@@ -801,13 +798,6 @@
              </property>
             </widget>
            </item>
-           <item row="1" column="0">
-            <widget class="QPushButton" name="anuluj">
-             <property name="text">
-              <string>Anuluj</string>
-             </property>
-            </widget>
-           </item>
            <item row="0" column="1">
             <widget class="QLabel" name="label">
              <property name="text">
@@ -815,10 +805,37 @@
              </property>
             </widget>
            </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="anuluj">
+             <property name="text">
+              <string>Anuluj</string>
+             </property>
+            </widget>
+           </item>
            <item row="1" column="1">
             <widget class="QPushButton" name="plac">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
              <property name="text">
               <string>Płać</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="Gotowka">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="text">
+              <string>Gotówką</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="Karta">
+             <property name="text">
+              <string>Kartą</string>
              </property>
             </widget>
            </item>
@@ -880,7 +897,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_13"/>
+              <widget class="QDoubleSpinBox" name="kcena_13"/>
              </item>
             </layout>
            </widget>
@@ -931,7 +948,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_7"/>
+              <widget class="QDoubleSpinBox" name="kcena_7"/>
              </item>
             </layout>
            </widget>
@@ -982,7 +999,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_3"/>
+              <widget class="QDoubleSpinBox" name="kcena_3"/>
              </item>
             </layout>
            </widget>
@@ -1033,7 +1050,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_4"/>
+              <widget class="QDoubleSpinBox" name="kcena_4"/>
              </item>
             </layout>
            </widget>
@@ -1084,7 +1101,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_14"/>
+              <widget class="QDoubleSpinBox" name="kcena_14"/>
              </item>
             </layout>
            </widget>
@@ -1135,7 +1152,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_6"/>
+              <widget class="QDoubleSpinBox" name="kcena_6"/>
              </item>
             </layout>
            </widget>
@@ -1186,7 +1203,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_11"/>
+              <widget class="QDoubleSpinBox" name="kcena_11"/>
              </item>
             </layout>
            </widget>
@@ -1237,7 +1254,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_12"/>
+              <widget class="QDoubleSpinBox" name="kcena_12"/>
              </item>
             </layout>
            </widget>
@@ -1288,7 +1305,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_1"/>
+              <widget class="QDoubleSpinBox" name="kcena_1"/>
              </item>
             </layout>
            </widget>
@@ -1339,7 +1356,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_2"/>
+              <widget class="QDoubleSpinBox" name="kcena_2"/>
              </item>
             </layout>
            </widget>
@@ -1390,7 +1407,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_15"/>
+              <widget class="QDoubleSpinBox" name="kcena_15"/>
              </item>
             </layout>
            </widget>
@@ -1441,7 +1458,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_9"/>
+              <widget class="QDoubleSpinBox" name="kcena_9"/>
              </item>
             </layout>
            </widget>
@@ -1492,7 +1509,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_5"/>
+              <widget class="QDoubleSpinBox" name="kcena_5"/>
              </item>
             </layout>
            </widget>
@@ -1543,7 +1560,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_8"/>
+              <widget class="QDoubleSpinBox" name="kcena_8"/>
              </item>
             </layout>
            </widget>
@@ -1594,7 +1611,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_16"/>
+              <widget class="QDoubleSpinBox" name="kcena_16"/>
              </item>
             </layout>
            </widget>
@@ -1645,7 +1662,7 @@
               </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QPlainTextEdit" name="kcena_10"/>
+              <widget class="QDoubleSpinBox" name="kcena_10"/>
              </item>
             </layout>
            </widget>
@@ -1791,19 +1808,6 @@
      </widget>
     </item>
    </layout>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar">
    <property name="enabled">

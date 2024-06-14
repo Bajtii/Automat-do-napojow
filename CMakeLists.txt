@@ -19,6 +19,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        placwindow.h placwindow.cpp
+        placwindow.ui
         ${TS_FILES}
 )
 
@@ -26,7 +28,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Automat-do-napojow
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        json.h json.cpp
+        main.cpp
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+        placwindow.h placwindow.cpp
+        placwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Automat-do-napojow APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
